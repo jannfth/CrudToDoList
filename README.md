@@ -1,22 +1,34 @@
-# CRUD-React-Native-Expo-And-Firebase
-Todo list using react native and firebase
+# 📝 CRUD To-Do List App (React Native & Firebase)
 
-This code tutorial from web : https://www.bagi2info.com/todosapp-sample-crud-react-native-expo-and-firebase/
+Aplikasi *To-Do List* sederhana berbasis mobile yang dibangun menggunakan **React Native**, **Expo**, dan **Firebase Firestore** untuk mendukung fungsionalitas CRUD (*Create, Read, Update, Delete*) secara *real-time*.
 
-This project forked from https://github.com/imrohit007/CRUD-React-Native-Expo-And-Firebase
-with change: using firebase version 8 so it can run from snack directly on Expo go
+---
 
-To run this, you need to change config.js and put your own firebase configuration and create firestore collection named todos
+## 📱 Fitur Utama
+* **Create (Tambah Tugas):** Menambahkan daftar kegiatan atau tugas baru dengan mudah.
+* **Read (Tampilkan Data):** Menampilkan daftar tugas secara *real-time* dari database Firestore yang diurutkan berdasarkan waktu pembuatan terbaru.
+* **Update (Ubah/Edit Tugas):** Memperbarui isi teks tugas yang sudah ada melalui halaman detail terpisah.
+* **Delete (Hapus Tugas):** Menghapus tugas dari daftar dan database secara instan.
+* **Navigasi Stack:** Menggunakan `@react-navigation/native` untuk perpindahan antar halaman (*Home* dan *Detail*).
 
-const firebaseConfig = {
-apiKey: "################",
-authDomain: "###################",
-projectId: "###############",
-storageBucket: "#####################",
-messagingSenderId: "################",
-appId: "######################",
-measurementId: "##############"
-};
+---
 
+## 🛠️ Teknologi yang Digunakan
+* **React Native / Expo** (Framework Pengembangan Mobile)
+* **Firebase Firestore** (Basis Data Cloud NoSQL *Real-time*)
+* **React Navigation** (Manajemen Navigasi Layar)
+* **Vector Icons (@expo/vector-icons)** (Ikon antarmuka)
 
+---
 
+## 📂 Struktur Proyek
+```text
+CrudToDoList/
+│
+├── Screens/
+│   ├── Home.js       # Halaman utama (Daftar tugas, form input, hapus, navigasi)
+│   └── Detail.js     # Halaman edit/pembaruan tugas
+│
+├── config.js         # Konfigurasi koneksi Firebase Firestore
+├── App.js            # Titik awal aplikasi & Stack Navigator
+└── package.json      # Daftar dependencies proyek
