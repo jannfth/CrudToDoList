@@ -48,7 +48,7 @@ Struktur direktori utama dari proyek ini:
 
 | Pembuatan Website (Designer / Blocks) | Pengujian di Perangkat (Mobile App) |
 | :---: | :---: |
-| <img src="Tes.png" width="350" alt="Web Test"> |
+| <img src="tes.png" width="350" alt="Web Test"> |
 
 ## 📂 Struktur Proyek
 ```text
