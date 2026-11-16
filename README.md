@@ -42,13 +42,14 @@ Struktur direktori utama dari proyek ini:
 
 ---
 
+
 ## 📸 Galeri Pengujian
 
 > 💡 *Tips: Ganti nama file gambar di bawah ini sesuai dengan nama file screenshot yang kamu upload ke repositori agar gambarnya langsung muncul di halaman depan GitHub!*
 
-| Pembuatan Website (Designer / Blocks) |
-| :---: |
-| <img src="tes.png" width="350" alt="Web Test"> |
+| Tampilan awal dan Menambahkan To Do List | Tampilan update (Untuk Memperbarui) |
+| :---: | :---: |
+| <img src="add.png" width="350" alt="Web Test"> | <img src="update.png" width="220" alt="App Test"> |
 
 ## 📂 Struktur Proyek
 ```text
